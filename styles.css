@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+ul {
+	display: flex;
+	list-style:none;
+}
+
+li.octocat > a > img {
+	height: 430px;
+	width: 430px;
+	border: 1px solid #D3D3D3;
+	border-radius: 3px;
+	margin: 5px 5px;
+}
+
+span.image-number {
+	color: #CACACA;
+	font-weight: bold;
+}
+
+span.image-number:before {
+	content: "#";
+}
+
+ul.authors > li > a > img {
+	height: 27px;
+	width: 27px;
+}
+
+div.image-caption {
+	float: right;
+}

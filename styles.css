@@ -54,7 +54,8 @@ ul.authors {
 }
 
 div.image-caption span {
-	margin: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-family: Helvetica;
 	font-weight: bold;
 	color: #BBB;
@@ -64,10 +65,25 @@ div.image-caption a {
 	font-family: Helvetica;
 	font-weight: bold;
 	text-decoration: none;
-	padding-top: 5px
-	/*color: black;*/
+	color: black;
 }
 
+div.image-footer {
+	padding: 10px 10px;
+}
+
+li.octocat > a:before {
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	border: 8px solid transparent;
+	border-top-color: #cacaca;
+	//position: absolute;
+	right: 1000px;
+	float: right;
+	top: 10px;
+}
 
 
 

@@ -43,7 +43,7 @@ ul.authors > li > a > img {
 	width: 27px;
 }
 
-div.image-caption {
+.image-caption {
 	float: right;
 	/*background: red;*/
 	display: flex;
@@ -53,7 +53,7 @@ ul.authors {
 	padding: 0;
 }
 
-div.image-caption span {
+.image-caption span {
 	margin-left: 5px;
 	margin-right: 5px;
 	font-family: Helvetica;
@@ -61,28 +61,30 @@ div.image-caption span {
 	color: #BBB;
 }
 
-div.image-caption a {
+.image-caption a {
 	font-family: Helvetica;
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
 }
 
-div.image-footer {
-	padding: 10px 10px;
+.image-footer {
+	padding: 0px 10px;
+	position: relative;
 }
 
-li.octocat > a:before {
+.image-footer:before {
+
 	content: "";
 	display: block;
 	height: 0;
 	width: 0;
 	border: 8px solid transparent;
 	border-top-color: #cacaca;
-	//position: absolute;
-	right: 1000px;
-	float: right;
-	top: 10px;
+	position: absolute;
+	right: 15px;
+	top:-10px;
+
 }
 
 

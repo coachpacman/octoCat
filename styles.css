@@ -8,7 +8,12 @@ html {
 
 ul {
 	display: flex;
-	list-style:none;
+	list-style: none;
+}
+
+li.octocat {
+	margin: 15px 10px;
+	border-bottom: 1px solid #D3D3D3;
 }
 
 li.octocat > a > img {
@@ -22,11 +27,16 @@ li.octocat > a > img {
 span.image-number {
 	color: #CACACA;
 	font-weight: bold;
+	font-family: Helvetica;
 }
 
 span.image-number:before {
 	content: "#";
 }
+
+/*ul.authors {
+	display: flex;
+}*/
 
 ul.authors > li > a > img {
 	height: 27px;
@@ -35,4 +45,29 @@ ul.authors > li > a > img {
 
 div.image-caption {
 	float: right;
+	/*background: red;*/
+	display: flex;
+	justify-content: space-around;
 }
+ul.authors {
+	padding: 0;
+}
+
+div.image-caption span {
+	margin: 5px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #BBB;
+}
+
+div.image-caption a {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 5px
+	/*color: black;*/
+}
+
+
+
+

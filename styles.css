@@ -9,6 +9,7 @@ html {
 ul {
 	display: flex;
 	list-style: none;
+	flex-wrap: wrap;
 }
 
 li.octocat {
